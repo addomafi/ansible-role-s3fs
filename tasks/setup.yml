@@ -1,7 +1,7 @@
 ---
 - name: Make sure s3fs dependencies are present
   become: yes
-  apt:
+  yum:
     name: "{{ item }}"
     state: present
     update_cache: yes

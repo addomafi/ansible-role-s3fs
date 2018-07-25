@@ -6,10 +6,7 @@ galaxy_info:
   license: "license (BSD, MIT)"
   min_ansible_version: 1.4
   platforms:
-  - name: Debian
-    versions:
-    - all
-  - name: Ubuntu
+  - name: Amazon Linux
     versions:
     - all
   categories:
