@@ -3,18 +3,12 @@ s3fs:
   passwd_file: /etc/passwd-s3fs
   daemon: /usr/local/bin/s3fs
   dependencies:
-    - unzip
-    - fuse
-    - openssl-devel
-    - gcc
-    - gcc-c++
-    - libstdc++-devel
-    - make
+    - automake
     - fuse
     - fuse-devel
-    - curl-devel
+    - gcc-c++
+    - git
+    - libcurl-devel
     - libxml2-devel
-    - mailcap
-    - automake
-    - libtool
-    - ntp
+    - make
+    - openssl-devel
