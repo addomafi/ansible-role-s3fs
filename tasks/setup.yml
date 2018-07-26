@@ -9,7 +9,7 @@
 
 - name: Download s3fs source
   get_url:
-    url: "{{ s3fs.source }}"
+    url: "{{ source }}"
     dest: "~/s3fs-fuse.package"
 
 - name: Uncompress s3fs
