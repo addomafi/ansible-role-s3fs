@@ -5,13 +5,16 @@ s3fs:
   dependencies:
     - unzip
     - fuse
-    - libssl-dev
-    - pkg-config
-    - build-essential
-    - libfuse-dev
-    - libcurl4-openssl-dev
-    - libxml2-dev
-    - mime-support
+    - openssl-devel
+    - gcc
+    - gcc-c++
+    - libstdc++-devel
+    - make
+    - fuse
+    - fuse-devel
+    - curl-devel
+    - libxml2-devel
+    - mailcap
     - automake
     - libtool
     - ntp
