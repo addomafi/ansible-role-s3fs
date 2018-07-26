@@ -4,7 +4,7 @@
   file:
     path: "{{ item.mountpoint }}"
     state: directory
-  with_items: "{{ s3fs.buckets }}"
+  with_items: "{{ buckets }}"
   ignore_errors: yes
   no_log: True
 
